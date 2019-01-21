@@ -32,7 +32,7 @@ bot.on("ready",()=>{
 })
 
 bot.on("message",msg=>{
-    if(msg.author.id == "536883742137122816")
+    if(msg.author.id == "523116488861810689")
     {
         if(msg.content.toLowerCase() == "!start")
         {
@@ -49,7 +49,7 @@ bot.on('message', message => {
     var prefix = "$";
     if (message.author.bot) return;
     if (!message.content.startsWith(prefix)) return;
-    if (message.author.id !== "536883742137122816") return;
+    if (message.author.id !== "523116488861810689") return;
   
     let command = message.content.split(" ")[0];
     command = command.slice(prefix.length);
